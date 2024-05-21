@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Switches -->
+    <div class="switches">
+        <label>
+            <input type="checkbox">
+            My awesome feature
+        </label>
+    </div>
+    <!-- Datalist -->
+    <div>
+        <input list="frameworks">
+        <datalist id="frameworks">
+            <option>Bootstrap</option>
+            <option>Tailwind CSS</option>
+            <option>Foundation</option>
+            <option>Bulma</option>
+            <option>Skeleton</option>
+        </datalist>
+    </div>
+    <!-- Color Picker -->
+    <div>
+        <label>
+            Color
+            <input type="color">
+        </label>
+    </div>
+    <!-- Accordions -->
+    <div class="accordions">
+        <details>
+            <summary>My accordion</summary>
+            <p>My accordion content</p>
+        </details>
+    </div>
+    <!-- Dialog Modals -->
+    <div>
+        <button>Dialog</button>
+        <dialog>
+            <form method="dialog">
+                <p>Tabs or spaces?</p>
+                <button type="submit" value="wrong">Tabs</button>
+                <button type="submit" value="correct">Spaces</button>
+            </form>
+        </dialog>
+    </div>
+    <script src="./modal.js"></script>
+</body>
+</html>
